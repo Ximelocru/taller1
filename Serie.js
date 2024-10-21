@@ -1,11 +1,8 @@
 export class Serie {
-    constructor(id, name, channel, seasons, resumen, link, imagen) {
+    constructor(id, name, channel, seasons) {
         this.id = id;
         this.name = name;
         this.channel = channel;
         this.seasons = seasons;
-        this.resumen = resumen;
-        this.link = link;
-        this.imagen = imagen;
     }
 }
